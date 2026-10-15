@@ -1,0 +1,10 @@
+# 修改后正确示例
+path: D:/project/yolo-26  # 写绝对路径，Windows下用 / 或者 \\，不容易报错
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: 人物
+  1: 彩鲤
+  2: 视财如命的武汉
